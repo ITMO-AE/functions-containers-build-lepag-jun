@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool IsPalindrom(string str)
+bool IsPalindrom(string &str)
 {
     int len = str.length();
     if(len == 0 || str == "\0")
